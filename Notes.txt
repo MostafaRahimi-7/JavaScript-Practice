@@ -42,6 +42,9 @@ const escape; => this is an error to we have to assign a value to the const vari
 
 var: avoid this keyword nowadays. because this is outdated. this a little similar with let
 
+
+Operators:
+
  
 
 
