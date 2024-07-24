@@ -67,6 +67,7 @@
 // const age2 = currentyear - 2000;
 // console.log(age1, age2);
 
+<<<<<<< HEAD
 // console.log(age1 * 16);
 // console.log(age1 / 10);
 // console.log(4 ** 5);
@@ -122,3 +123,7 @@ console.log(a, b);
 console.log(age1, age2);
 const average = (age1 + age2) / 2;
 console.log(average);
+=======
+console.log("There is some changes in this repository");
+
+>>>>>>> bd9f4f928805c802c6e90e42a4e3a5d64b2a1f2a
