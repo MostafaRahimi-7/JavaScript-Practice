@@ -1,0 +1,47 @@
+Scripting languages:
+1- sever side: PHP, ASP.NET, JSP
+2- Client side: JavaScript
+
+    JavaScript control in client side.
+    JavaScript is a lightweight programming languages.
+    JavaScript can embed with HTML code.
+    JavaScript is an interpret language.
+
+
+Writing the JavaScript code:
+1- Head:load first before the main page.
+2- Body:load after the the main page.
+
+Data Type in JavaScript:
+7 Primitive data types =
+1- Number
+2- String
+3- Boolean
+4- Undefined
+5- Null
+6- Symbol
+7- Biglnt
+
+Note: In the JavaScript we don't need to define the data type for the vairables.
+
+How to declare the variables:
+Let, Const, Var:
+
+let: We use let that will change the value during the execution of the programm.
+For example:
+let fruit = apple;
+fruit = banana;
+
+const: We use const that don't want to change the value during the execution of the programm.
+Note: also we can not define a empty const variable without assign value to it.
+For example:
+const birthYear = 2001;
+birthYear = 2000; => this is an error.
+const escape; => this is an error to we have to assign a value to the const variable after the decalting.
+
+
+var: avoid this keyword nowadays. because this is outdated. this a little similar with let
+
+ 
+
+
