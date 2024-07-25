@@ -124,25 +124,67 @@
 // console.log(average);
 // console.log("There is some changes in this repository");
 
-
 // String & Template Literals
 
-const brandName = "BMW";
-const modelName = "Series 6";
-const year = 2024;
+// const brandName = "BMW";
+// const modelName = "Series 6";
+// const year = 2024;
 
-const myCar = 'My car is ' + ' ' + brandName + ' ' + modelName + 'I bought this ' + ' ' + year;
+// const myCar = 'My car is ' + ' ' + brandName + ' ' + modelName + 'I bought this ' + ' ' + year;
 
-console.log(myCar);
+// console.log(myCar);
 
-const myCar2 = `My car is ${brandName} ${modelName}, I bought it ${year}`;
-console.log(myCar2);
+// const myCar2 = `My car is ${brandName} ${modelName}, I bought it ${year}`;
+// console.log(myCar2);
 
-console.log(`Backtext`);
-// For multi line strings: we have tow way boring and awesome 👌
-console.log('hello \n\ How are you? \n\ I am fine');//this boring
-// this awesome:
-console.log(`Hello  
-    How are you?
-        I am fine`);
+// console.log(`Backtext`);
+// // For multi line strings: we have tow way boring and awesome 👌
+// console.log('hello \n\ How are you? \n\ I am fine');//this boring
+// // this awesome:
+// console.log(`Hello
+//     How are you?
+//         I am fine`);
+
+// Conditional statements:
+
+// const personAge = 8;
+
+// if(personAge >= 18){
+//     console.log('Mostafa can buy some chese⭐');
+// }else{
+//     const yearsLeft = 18 - personAge;
+//     console.log(`Mostafa is too young for chese, he can buy it in ${yearsLeft} year later`);
+// }
+
+// const personAge = 1;
+// if(personAge >= 18){
+//     console.log(`Cangratulation the bills has paid succefully!`);
+// }else{
+//     const remainyear = 18 - personAge;
+//     console.log(`Sorry! your too young to pay the bill, you pay ${remainyear} years later`);
+// }
+
+// const personAge = 10;
+// if (personAge >= 18) {
+//   console.log(`Your allow to apply for driving license`);
+// } else {
+//   const remainYear = 18 - personAge;
+//   console.log(`Sorry! you can't apply for driving license, please wait ${remainYear} years`);
+// }
+
+// Type conversion and coersion: it mean converting the data type to each other
+// 1-Type conversion it manually converting one data type to another.
+// 2-Tyoe coersion is converting the data types logically in back sence by javascript for programmers.
+
+const inputAge = "26";
+console.log(inputAge + 3);
+console.log(Number(inputAge), inputAge);
+console.log(Number(inputAge) + 3);
+
+console.log(Number("Hello")); //NaN => stand for no a number, means an invalid number.
+console.log(typeof NaN);
+
+console.log(String(100));
+console.log(String(200), 200);
+
 
