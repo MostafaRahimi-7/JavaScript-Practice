@@ -67,7 +67,6 @@
 // const age2 = currentyear - 2000;
 // console.log(age1, age2);
 
-<<<<<<< HEAD
 // console.log(age1 * 16);
 // console.log(age1 / 10);
 // console.log(4 ** 5);
@@ -109,22 +108,41 @@
 
 // console.log(currentyear - 1996 > currentyear - 2005);
 
-const currentyear = 2024;
-const age1 = currentyear - 1996;
-const age2 = currentyear - 2005;
+// const currentyear = 2024;
+// const age1 = currentyear - 1996;
+// const age2 = currentyear - 2005;
 
-console.log(currentyear - 1996 > currentyear - 2005);
-console.log(100 - 30 - 10);
+// console.log(currentyear - 1996 > currentyear - 2005);
+// console.log(100 - 30 - 10);
 
-let a, b;
-a = b = 100 - 30 - 10;
-console.log(a, b);
+// let a, b;
+// a = b = 100 - 30 - 10;
+// console.log(a, b);
 
-console.log(age1, age2);
-const average = (age1 + age2) / 2;
-console.log(average);
-=======
-console.log("There is some changes in this repository");
+// console.log(age1, age2);
+// const average = (age1 + age2) / 2;
+// console.log(average);
+// console.log("There is some changes in this repository");
 
->>>>>>> bd9f4f928805c802c6e90e42a4e3a5d64b2a1f2a
+
+// String & Template Literals
+
+const brandName = "BMW";
+const modelName = "Series 6";
+const year = 2024;
+
+const myCar = 'My car is ' + ' ' + brandName + ' ' + modelName + 'I bought this ' + ' ' + year;
+
+console.log(myCar);
+
+const myCar2 = `My car is ${brandName} ${modelName}, I bought it ${year}`;
+console.log(myCar2);
+
+console.log(`Backtext`);
+// For multi line strings: we have tow way boring and awesome 👌
+console.log('hello \n\ How are you? \n\ I am fine');//this boring
+// this awesome:
+console.log(`Hello  
+    How are you?
+        I am fine`);
 
