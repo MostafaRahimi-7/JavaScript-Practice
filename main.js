@@ -176,15 +176,73 @@
 // 1-Type conversion it manually converting one data type to another.
 // 2-Tyoe coersion is converting the data types logically in back sence by javascript for programmers.
 
-const inputAge = "26";
-console.log(inputAge + 3);
-console.log(Number(inputAge), inputAge);
-console.log(Number(inputAge) + 3);
+// const inputAge = "26";
+// console.log(inputAge + 3);
+// console.log(Number(inputAge), inputAge);
+// console.log(Number(inputAge) + 3);
 
-console.log(Number("Hello")); //NaN => stand for no a number, means an invalid number.
-console.log(typeof NaN);
+// console.log(Number("Hello")); //NaN => stand for no a number, means an invalid number.
+// console.log(typeof NaN);
 
-console.log(String(100));
-console.log(String(200), 200);
+// console.log(String(100));
+// console.log(String(200), 200);
+
+// // Type coersion
+
+// console.log("I was born in " + 2000);
+// console.log("I was born in " + "2000");
+// // the below statements are the same:
+// console.log('1990' - '20' - 10);
+// console.log('1990' - '20' - "10");
+
+// // Multiple is like the same of substraction:
+// console.log("1990" * "5");
+
+// let number = "10" + 10; //1010
+// number = number - 10; // 1010-10 = 1000
+// console.log(number);
+
+// Fasly and truthy values:
+// Falsey values: 0, '', undefined, null, NaN
+// Truthy value: opisite of the falsy values.
+
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean({}));
+// console.log(Boolean(NaN));
+// console.log(Boolean("mostafa"));
+
+// const candy = 0;
+// if (candy) {
+//   //In here the javascript convert the numer candy to boolean.
+//   console.log("Do not eat too much candy!");
+// } else {
+//   console.log("You have no candy");
+// }
+
+// let age = 0;
+// console.log(typeof age);
+// if (age) {
+//   console.log(`Age = ${age}`);
+// } else {
+//   console.log(`No age`);
+// }
+
+// Equality Operators:
+
+// const age = 18;
+// // const age = "18";
+// if (age === 18) console.log("Your are in legal age (===)"); // use this way to compare values most
+// if (age == 18) console.log("Your are in legal age (==)"); // use this way to compare values less
 
 
+// // prompt function get string values and we have to change it to number
+// const inputAge = Number(prompt("What is your age: "));
+// console.log(inputAge);
+// if(inputAge === 26)console.log('Your are the same age with me');
+// else if(inputAge === 12) console.log("your are the age of my son");
+// else console.log("NO age");
+
+// if(inputAge!==26) console.log("no no no");
