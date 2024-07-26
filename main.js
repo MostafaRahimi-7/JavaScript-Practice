@@ -284,6 +284,7 @@ if (notLegal) {
 
 // Switch statements:
 
+/*
 const operator = "+";
 const numberOne = 10;
 const numberTwo = 5;
@@ -347,3 +348,22 @@ switch (days) {
     break;
   }
 }
+*/
+
+// Statements and Expressions:
+// Difference between Statements and Expressions:
+// Expression is a peice of code that produce a value for example 8 + 7 will produce a value.
+// another example 1000 or true && false && !false
+// Statements is a bigger peice of code that not produce a value on itself.
+// actions are statements.  example of statements
+// if(12 < 26){
+//   console.log(`12 is smaller than 26`);
+// }
+
+/*
+    In a short word: brief of above definition:
+    EXPRESSION => Expression produce values
+    STATEMENTS => Statements are like full sentences that translate our action
+*/
+
+// console.log(`${23 + 12} apples`); //template literation
