@@ -237,7 +237,6 @@
 // if (age === 18) console.log("Your are in legal age (===)"); // use this way to compare values most
 // if (age == 18) console.log("Your are in legal age (==)"); // use this way to compare values less
 
-
 // // prompt function get string values and we have to change it to number
 // const inputAge = Number(prompt("What is your age: "));
 // console.log(inputAge);
@@ -246,3 +245,105 @@
 // else console.log("NO age");
 
 // if(inputAge!==26) console.log("no no no");
+
+// Logical operators: AND(&&), OR(||), NOT(!)
+/*
+const hasMotorCycle = true;
+const hasCar = true;
+
+console.log(hasMotorCycle && hasCar);
+console.log(hasMotorCycle || hasCar);
+console.log(!hasMotorCycle);
+
+const isRainy = false;
+const shouldDrive = hasCar && isRainy;
+
+if (shouldDrive) {
+  console.log("Mostafa should drive because its rainy!");
+} else if (hasMotorCycle && !isRainy) {
+  console.log("Mostafa can ride motocycle too");
+}
+
+const isOld = false;
+const mustDrive = true;
+if (isOld) {
+  console.log("He or She must not drive the car");
+} else if (mustDrive && !isOld) {
+  console.log("He or She can drive the car because they are not too old");
+}
+
+const notLegal = true;
+const payBill = true;
+
+if (notLegal) {
+  console.log("You can not pay the bill");
+} else if (payBill && !notLegal) {
+  console.log("You are allowed to pay the bills");
+}
+*/
+
+// Switch statements:
+
+const operator = "+";
+const numberOne = 10;
+const numberTwo = 5;
+
+switch (operator) {
+  case "+": {
+    console.log(`Sum of two number is = ${numberOne + numberTwo}`);
+    break;
+  }
+  case "-": {
+    console.log(`Substractio of two number is = ${numberOne - numberTwo}`);
+    break;
+  }
+  case "*": {
+    console.log(`Multiplection of two number is = ${numberOne * numberTwo}`);
+    break;
+  }
+  case "/": {
+    console.log(`Division of two number is = ${numberOne / numberTwo}`);
+    break;
+  }
+  default: {
+    console.log(`Invalid operator 🥹`);
+    break;
+  }
+}
+
+const days = "friday";
+
+switch (days) {
+  case "saturday": {
+    console.log(`${days} is the first day of Week`);
+    break;
+  }
+  case "sunday": {
+    console.log(`${days} is the second day of week`);
+    break;
+  }
+  case "monday": {
+    console.log(`${days} is the third day of week`);
+    break;
+  }
+  case "teusday": {
+    console.log(`${days} is the fourth day of week`);
+    break;
+  }
+  case "wednsday": {
+    console.log(`${days} is the fifth day of week`);
+    break;
+  }
+  case "thursday": {
+    console.log(`${days} is the sixth day of week`);
+    break;
+  }
+  case "friday": {
+    console.log(`${days} is the last day of week on other word weekend`);
+    break;
+  }
+  default: {
+    console.log(`Invalid value 🥹`);
+    break;
+  }
+}
