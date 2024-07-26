@@ -367,3 +367,54 @@ switch (days) {
 */
 
 // console.log(`${23 + 12} apples`); //template literation
+
+// Conditinol operators:
+// Syntax => condition ? "if the condition true" : "If the condition false"
+
+// const age = 20;
+// age >= 18
+//   ? console.log("you can drive the car")
+//   : console.log("you can not drive the car");
+
+// const vehicle = age >= 18 ? `Car` : `Bicycle`;
+// console.log(vehicle);
+
+// const isLegal =
+//   age >= 18
+//     ? `You are able to pay the bills`
+//     : `You are not able to pay the bills`;
+
+//     console.log(isLegal);
+
+// const light = false;
+// const isLegal =
+//   light == true
+//   ? `You can pass from street`
+//   : `You can not pass from street`;
+//   console.log(isLegal);
+
+// let light = true;
+
+// const isLegal = light;
+// if (isLegal == true) {
+//   console.log(`You can pass from street`);
+// } else {
+//   console.log(`You can not pass from street`);
+// }
+
+// let vehicelTwo;
+// if (age >= 18) {
+//   vehicelTwo = `Car`;
+// } else {
+//   vehicelTwo = `Bicycle`;
+// }
+
+// console.log(vehicelTwo);
+
+// console.log(`I can drive ${age >= 18 ? `car` : `bicycle`}`);
+
+// Ternery operators is for small conditions and simple conditions for big block of codes we still using if else statements.
+// const age = 10;
+// let isLegal = age >= 18 ? `you can drive the car` : `you can not drive the car`;
+// console.log(isLegal);
+// Above Example is the about ternay operators for a simple and small conditioning.
